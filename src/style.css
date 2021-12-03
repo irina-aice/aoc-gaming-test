@@ -1,0 +1,13 @@
+@import 'npm:modern-normalize/modern-normalize.css';
+@import 'npm:swiper/swiper.scss';
+@import 'npm:swiper/modules/effect-fade/effect-fade.scss';
+
+@import 'css/global.css';
+@import 'css/link-wrapper.css';
+@import 'css/link.css';
+@import 'css/slider-wrapper.css';
+@import 'css/slider.css';
+@import 'css/slider-side.css';
+@import 'css/content.css';
+@import 'css/advantages.css';
+

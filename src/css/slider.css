@@ -1,0 +1,48 @@
+.slider {
+  position: relative;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider__slide img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider__button {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (min-width: 960px) {
+  .slider__button {
+    display: block;
+  }
+}
+
+.slider__button--prev {
+  left: 43px;
+}
+
+.slider__button--prev svg {
+  transform: rotate(180deg);
+}
+
+.slider__button--next {
+  right: 43px;
+}
+
+.slider__button svg {
+  color: #ea235a;
+}

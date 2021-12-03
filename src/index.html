@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>aoc-gaming-test</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+  </script>
+</head>
+<body>
+<div class="slider-wrapper">
+  <div class="js-slider-side-previous slider-side slider-side--previous">
+    <img src="img/slide_4.png" alt="">
+  </div>
+  <div class="js-slider slider swiper">
+    <div class="swiper-wrapper">
+      <div class="slider__slide swiper-slide">
+        <img src="img/slide_1.png" alt="">
+      </div>
+      <div class="slider__slide swiper-slide">
+        <img src="img/slide_2.png" alt="">
+      </div>
+      <div class="slider__slide swiper-slide">
+        <img src="img/slide_3.png" alt="">
+      </div>
+      <div class="slider__slide swiper-slide">
+        <img src="img/slide_4.png" alt="">
+      </div>
+    </div>
+    <button class="js-slider-prev slider__button slider__button--prev" type="button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/>
+      </svg>
+    </button>
+    <button class="js-slider-next slider__button slider__button--next" type="button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/>
+      </svg>
+    </button>
+  </div>
+  <div class="js-slider-side-next slider-side slider-side--next">
+    <img src="img/slide_2.png" alt="">
+  </div>
+</div>
+<div class="content">
+  <span class="link-wrapper">
+    <a class="link" href="#">See product gallery</a>
+  </span>
+  <ul class="advantages">
+    <li class="js-advantages-item advantages__item">
+      <div class="advantages__inner-text">
+        <h2 class="advantages__title">Изогнутость <br>1000R</h2>
+        <p>Радиус кривизны 1000R - это наибольший радиус кривизны у игровых мониторов. Он дает несколько преимуществ:
+          снижает нагрузку на глаза, уменьшает количество бликов, увеличивает размеры воспринимаемого изображения и
+          создает больший эффект погружения. Окунитесь в виртуальные миры вокруг вас и получайте удовольствие от любимой
+          игры и прекрасного обзора.</p>
+      </div>
+      <div class="advantages__image-wrapper">
+        <img class="js-advantage-image" src="img/content_1.png" alt="Изогнутый экран">
+      </div>
+    </li>
+    <li class="js-advantages-item advantages__item">
+      <div class="advantages__inner-text advantages__inner-text--right">
+        <h2 class="advantages__title">165hz частота <br>обновления</h2>
+        <p>Частота обновления 165гц, что более чем в два раза больше по сравнению со стандартом 60Гц, превращает игры в
+          истинное удовольствие. Реализуйте потенциал своего видеоадаптера. Забудьте про разрывы изображения и
+          попрощайтесь с размытым изображением. Почувствуйте как ваши рефлексы преобразуются в непосредственные
+          действия. Никогда не оглядывайтесь.</p>
+      </div>
+      <div class="advantages__image-wrapper advantages__image-wrapper--right">
+        <img class="js-advantage-image" src="img/content_2.png" alt="Четкая картинка">
+      </div>
+    </li>
+  </ul>
+</div>
+<script type="module" src="script.js"></script>
+</body>
+</html>

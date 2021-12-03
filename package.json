@@ -1,0 +1,33 @@
+{
+  "name": "aoc-gaming-test",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irina-aice/aoc-gaming-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irina-aice/aoc-gaming-test/issues"
+  },
+  "homepage": "https://github.com/irina-aice/aoc-gaming-test#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "gsap": "^3.8.0",
+    "modern-normalize": "^1.1.0",
+    "swiper": "^7.3.1"
+  }
+}

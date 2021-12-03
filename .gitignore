@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+.vscode
+.parcel-cache
+*.ai
+*.log
+*.pdf
+*.psd
+*.sublime*
+node_modules/
+npm-debug.*
+source/css/*.map
+Thumbs.db
